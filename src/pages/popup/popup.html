@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html style="width: max-content; height: max-content;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Popup</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #3e3e3e;
+        }
+
+        button {
+            background-color: brown;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            margin: 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #a74545;
+        }
+
+        button:active {
+            background-color: coral;
+        }
+
+        div.keyboard {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body style="text-align: center;">
+    <h3>Copy to clipboard</h3>
+    <div class="keyboard">
+        <button id="kb-copy_title">Copy title</button>
+        <button id="kb-copy_url">Copy URL</button>
+        <button id="kb-copy_gost">Copy as GOST</button>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+<footer>
+    <small>© tankalxat34</small>
+</footer>
+
+</html>
